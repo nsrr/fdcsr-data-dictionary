@@ -1,0 +1,6 @@
+{
+  "id": "fd_sp_length",
+  "display_name": "FD sleep period (SP) length",
+  "description": "",
+  "type": "numeric"
+}

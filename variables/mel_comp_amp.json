@@ -1,0 +1,6 @@
+{
+  "id": "mel_comp_amp",
+  "display_name": "Mel Comp Amp",
+  "description": "Calculated composite amplitude during FD using melatonin data",
+  "type": "numeric"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "hab_wake",
+  "display_name": "Habitual wake time",
+  "description": "",
+  "type": "numeric"
+}

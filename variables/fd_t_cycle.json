@@ -1,0 +1,7 @@
+{
+  "id": "fd_t_cycle",
+  "display_name": "FD time cycle length",
+  "description": "",
+  "type": "choices",
+  "domain": "fd_t_cycle"
+}

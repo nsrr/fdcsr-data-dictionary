@@ -1,0 +1,6 @@
+{
+  "id": "mel_comp_max",
+  "display_name": "Mel Comp Max",
+  "description": "Calculated time of maximum of fit using all harmonics using melatonin data",
+  "type": "numeric"
+}

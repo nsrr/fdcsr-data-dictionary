@@ -1,0 +1,6 @@
+{
+  "id": "start_analysis",
+  "display_name": "Analysis start time",
+  "description": "Beginning of forced desynchrony (FD) analysis period. Represented as lab time.",
+  "type": "numeric"
+}

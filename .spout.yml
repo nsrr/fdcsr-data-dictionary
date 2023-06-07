@@ -1,3 +1,11 @@
-slug: fdcsr-data-dictionary
-visit: visit
+slug: fdcsr
+visit: visitnumber
 charts: []
+charts:
+- chart: gender
+  title: Gender
+webservers:
+  - name: production
+    url: https://sleepdata.org
+  - name: staging
+    url: https://staging.partners.org/sleepdata.org

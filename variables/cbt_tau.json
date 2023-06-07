@@ -1,0 +1,6 @@
+{
+  "id": "cbt_tau",
+  "display_name": "CBT Tau",
+  "description": "Calculated period during FD using CBT (Core Body Temperature) data",
+  "type": "numeric"
+}

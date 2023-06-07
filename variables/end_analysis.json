@@ -1,0 +1,6 @@
+{
+  "id": "end_analysis",
+  "display_name": "Analysis end time",
+  "description": "End of forced desynchrony (FD) analysis period. Represented as lab time.",
+  "type": "numeric"
+}

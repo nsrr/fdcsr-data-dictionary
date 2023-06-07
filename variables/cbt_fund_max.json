@@ -1,0 +1,6 @@
+{
+  "id": "cbt_fund_max",
+  "display_name": "CBT Fund Max",
+  "description": "Calculated time of maximum of fit using only fundamental harmonic using CBT (Core Body Temperature) data.",
+  "type": "numeric"
+}

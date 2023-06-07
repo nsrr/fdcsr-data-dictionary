@@ -1,0 +1,6 @@
+{
+  "id": "melamp_circad",
+  "display_name": "MelAmp Circad",
+  "description": "Calculated amplitude of circadian component during FD using melatonin data",
+  "type": "numeric"
+}

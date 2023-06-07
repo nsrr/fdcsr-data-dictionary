@@ -1,0 +1,6 @@
+{
+  "id": "cbt___amp_t",
+  "display_name": "CBT - Amp T",
+  "description": "Calculated amplitude of Forced component during FD using CBT (Core Body Temperature) data.",
+  "type": "numeric"
+}

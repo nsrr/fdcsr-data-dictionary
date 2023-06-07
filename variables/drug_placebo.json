@@ -1,0 +1,7 @@
+{
+  "id": "drug_placebo",
+  "display_name": "Drug or placebo",
+  "description": "",
+  "type": "choices",
+  "domain": "drug_placebo"
+}

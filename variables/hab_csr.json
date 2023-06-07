@@ -1,0 +1,7 @@
+{
+  "id": "hab_csr",
+  "display_name": "Habitual or CSR ratio",
+  "description": "Habitual (2:1) or CSR (3.3:1) wake:sleep ratio.",
+  "type": "choices",
+  "domain": "hab_csr"
+}

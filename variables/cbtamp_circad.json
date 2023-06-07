@@ -1,0 +1,6 @@
+{
+  "id": "cbtamp_circad",
+  "display_name": "CBT Amp Circad",
+  "description": "Calculated amplitude of circadian component during FD using CBT (Core Body Temperature) data.",
+  "type": "numeric"
+}

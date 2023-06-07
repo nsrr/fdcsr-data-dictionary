@@ -1,0 +1,7 @@
+{
+  "id": "subject",
+  "display_name": "Subject identifier",
+  "description": "",
+  "type": "identifier",
+  "commonly_used": true
+}

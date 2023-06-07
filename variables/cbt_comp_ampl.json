@@ -1,0 +1,6 @@
+{
+  "id": "cbt_comp_ampl",
+  "display_name": "CBT Comp Amp",
+  "description": "Calculated composite amplitude during FD using CBT (Core Body Temperature) data",
+  "type": "numeric"
+}

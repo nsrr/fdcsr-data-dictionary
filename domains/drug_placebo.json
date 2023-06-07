@@ -1,0 +1,12 @@
+[
+  {
+    "value": "N",
+    "display_name": "No, did not take a study drug",
+    "description": ""
+  },
+  {
+    "value": "Y",
+    "display_name": "Yes, took a study drug",
+    "description": ""
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "id": "fd_wp_length",
+  "display_name": "FD wake period (WP) length",
+  "description": "",
+  "type": "numeric"
+}

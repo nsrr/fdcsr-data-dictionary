@@ -1,0 +1,6 @@
+{
+  "id": "mel___amp_t",
+  "display_name": "Mel - Amp T",
+  "description": "Calculated amplitude of Forced component during FD using melatonin data",
+  "type": "numeric"
+}
