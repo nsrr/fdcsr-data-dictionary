@@ -1,7 +1,7 @@
 FD-CSR Data Dictionary
 ======================
 
-[![Build Status](https://app.travis-ci.com/nsrr/fdcsr-data-dictionary.svg?branch=main)](https://app.travis-ci.com/nsrr/fdcsr-data-dictionary)
+[![Build Status](https://app.travis-ci.com/nsrr/fdcsr-data-dictionary.svg?branch=master)](https://app.travis-ci.com/nsrr/fdcsr-data-dictionary)
 
 ### Exports
 
