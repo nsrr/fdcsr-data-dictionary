@@ -1,0 +1,7 @@
+{
+  "id": "fd_t_cycle",
+  "display_name": "Length of sleep+wake cycles during forced desynchrony (FD)",
+  "description": "FD sleep+wake cycle length",
+  "type": "choices",
+  "domain": "fd_t_cycle"
+}

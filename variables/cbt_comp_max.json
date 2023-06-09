@@ -1,6 +1,0 @@
-{
-  "id": "cbt_comp_max",
-  "display_name": "CBT Comp Max",
-  "description": "Calculated time of maximum of fit using all harmonics using CBT (Core Body Temperature) data.",
-  "type": "numeric"
-}

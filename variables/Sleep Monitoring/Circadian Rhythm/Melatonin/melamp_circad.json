@@ -1,6 +1,6 @@
 {
   "id": "melamp_circad",
-  "display_name": "MelAmp Circad",
+  "display_name": "Amplitude of circadian component in melatonin rhythm during forced desynchrony (FD)",
   "description": "Calculated amplitude of circadian component during FD using melatonin data",
   "type": "numeric"
 }

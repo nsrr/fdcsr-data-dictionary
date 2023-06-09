@@ -1,0 +1,7 @@
+{
+  "id": "cbtamp_circad",
+  "display_name": "Amplitude of circadian component in core body temperature (CBT) during forced desynchrony (FD)",
+  "description": "Calculated amplitude of circadian component during FD using CBT (Core Body Temperature) data.",
+  "type": "numeric",
+  "units": "celsius ©"
+}

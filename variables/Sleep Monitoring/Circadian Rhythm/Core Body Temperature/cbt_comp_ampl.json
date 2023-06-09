@@ -1,6 +1,6 @@
 {
   "id": "cbt_comp_ampl",
-  "display_name": "CBT Comp Amp",
+  "display_name": "Calculated amplitude of core body temperature (CBT) rhythm using all harmonics during forced desynchrony (FD)",
   "description": "Calculated composite amplitude during FD using CBT (Core Body Temperature) data",
   "type": "numeric"
 }

@@ -1,7 +1,7 @@
 {
   "id": "subject",
   "display_name": "Subject identifier",
-  "description": "",
+  "description": "Same study subject may have participated in more than one study",
   "type": "identifier",
   "commonly_used": true
 }

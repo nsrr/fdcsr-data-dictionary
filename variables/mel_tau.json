@@ -1,6 +1,0 @@
-{
-  "id": "mel_tau",
-  "display_name": "Mel Tau",
-  "description": "Calculated period during FD using melatonin data",
-  "type": "numeric"
-}

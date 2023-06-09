@@ -1,6 +1,6 @@
 {
   "id": "mel___amp_t",
-  "display_name": "Mel - Amp T",
+  "display_name": "Amplitude of forced component in melatonin rhythm during forced desynchrony (FD)",
   "description": "Calculated amplitude of Forced component during FD using melatonin data",
   "type": "numeric"
 }

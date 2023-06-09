@@ -49,8 +49,6 @@
     rename 
       var7 = drug_placebo
       end_analysis_spn__included_ = end_analysis_spn
-      cbt_comp_min = cbt_comp_max /* fix typo */
-      cbt_fund_min = cbt_fund_max /* fix typo */
       ;
 
     *drop variables;
@@ -65,7 +63,6 @@
 *******************************************************************************;
 * create harmonized dataset ;
 *******************************************************************************;
-
 
 *******************************************************************************;
 * make all variable names lowercase ;

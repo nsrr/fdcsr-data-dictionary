@@ -1,0 +1,7 @@
+{
+  "id": "mel_comp_max",
+  "display_name": "Calculated time of maximum melatonin using all harmonics during forced desynchrony (FD)",
+  "description": "Calculated time of maximum of fit using all harmonics using melatonin data",
+  "type": "numeric",
+  "units": "hours"
+}

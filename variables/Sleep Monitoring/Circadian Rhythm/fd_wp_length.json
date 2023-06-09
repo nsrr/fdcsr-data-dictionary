@@ -1,0 +1,7 @@
+{
+  "id": "fd_wp_length",
+  "display_name": "Wake period duration during forced desynchrony (FD)",
+  "description": "FD wake period (WP) length",
+  "type": "numeric",
+  "units": "hours"
+}
