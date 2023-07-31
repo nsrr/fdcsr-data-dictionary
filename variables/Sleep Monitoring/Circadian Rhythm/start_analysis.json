@@ -1,7 +1,7 @@
 {
   "id": "start_analysis",
-  "display_name": "Forced desynchrony (FD) Analysis start time",
-  "description": "Represented as lab time.",
+  "display_name": "Forced desynchrony (FD) Analysis start time represented as lab time",
+  "description": "",
   "type": "numeric",
   "units": "hours"
 }

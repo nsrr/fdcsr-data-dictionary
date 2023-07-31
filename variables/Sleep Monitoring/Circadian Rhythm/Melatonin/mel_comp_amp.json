@@ -1,6 +1,6 @@
 {
   "id": "mel_comp_amp",
-  "display_name": "Amplitude of melatonin rhythm using all harmonics during forced desynchrony (FD)",
+  "display_name": "Amplitude of circadian rhythm using all harmonics during forced desynchrony (FD) based on melatonin data ",
   "description": "Calculated composite amplitude during FD using melatonin data",
   "type": "numeric"
 }

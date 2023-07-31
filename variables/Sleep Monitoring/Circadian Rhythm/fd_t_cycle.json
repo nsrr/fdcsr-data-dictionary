@@ -3,5 +3,6 @@
   "display_name": "Length of sleep+wake cycles during forced desynchrony (FD)",
   "description": "FD sleep+wake cycle length",
   "type": "choices",
-  "domain": "fd_t_cycle"
+  "domain": "fd_t_cycle",
+  "units": " "
 }

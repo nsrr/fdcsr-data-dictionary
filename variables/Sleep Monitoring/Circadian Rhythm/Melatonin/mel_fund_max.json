@@ -1,6 +1,6 @@
 {
   "id": "mel_fund_max",
-  "display_name": "Calculated time of maximum melatonin using only fundamental harmonic during forced desynchrony (FD)",
+  "display_name": "Calculated time of circadian rhythm peak using only fundamental harmonic during forced desynchrony (FD) based on melatonin data",
   "description": "Calculated time of maximum of fit using only fundamental harmonic using melatonin data",
   "type": "numeric",
   "units": "hours"

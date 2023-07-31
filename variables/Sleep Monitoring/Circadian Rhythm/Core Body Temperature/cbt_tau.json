@@ -1,6 +1,6 @@
 {
   "id": "cbt_tau",
-  "display_name": "Calculated cycle length of core body temperature (CBT) rhythm during forced desynchrony (FD)",
+  "display_name": "Calculated cycle length of circadian rhythm during forced desynchrony (FD) based on core body temperature (CBT) ",
   "description": "Calculated endogenous period length during FD using CBT (Core Body Temperature) data",
   "type": "numeric",
   "units": "hours"

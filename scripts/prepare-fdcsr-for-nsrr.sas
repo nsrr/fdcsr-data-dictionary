@@ -63,6 +63,47 @@
 *******************************************************************************;
 * create harmonized dataset ;
 *******************************************************************************;
+data fdcsr_nsrr;
+set fdcsr_in;
+
+*demographics
+*age;
+*use age;
+  format nsrr_age 8.2;
+  if age gt 89 then nsrr_age=90;
+  else if age le 89 then nsrr_age = age;
+
+*sex;
+*use gender;
+  format nsrr_sex $10.;
+  if gender = "M" then nsrr_sex = 'male';
+  else if gender = "F" then nsrr_sex = 'female';
+  else if gender = . then nsrr_sex = 'not reported';
+
+**add in ID so can merge;
+  format id 8.2;
+  nsrrid=subject;
+
+  keep 
+    nsrrid
+    nsrr_age
+    nsrr_sex
+	;
+run;
+
+*******************************************************************************;
+* checking harmonized datasets ;
+*******************************************************************************;
+/* Checking for extreme values for continuous variables */
+proc means data=fdcsr_nsrr;
+VAR   nsrr_age
+      ;
+run;
+
+/* Checking categorical variables */
+proc freq data=fdcsr_nsrr;
+table   nsrr_sex;
+run;
 
 *******************************************************************************;
 * make all variable names lowercase ;
@@ -89,6 +130,12 @@
 *******************************************************************************;
   proc export data=fdcsr
     outfile="&releasepath\&version\fdcsr-dataset-&version..csv"
+    dbms=csv
+    replace;
+  run;
+  proc export
+    data=fdcsr_nsrr	
+	outfile="&releasepath\&version\fdcsr-harmonized-dataset-&version..csv"
     dbms=csv
     replace;
   run;

@@ -1,6 +1,6 @@
 {
   "id": "cbt_fund_min",
-  "display_name": "Calculated time of minimum core body temperature (CBT) using only fundamental harmonic during forced desynchrony (FD)",
+  "display_name": "Calculated time of circadian rhythm nadir using only fundamental harmonic during forced desynchrony (FD) based on core body temperature (CBT)",
   "description": "Calculated time of minimum of fit using only fundamental harmonic using CBT (Core Body Temperature) data.",
   "type": "numeric",
   "units": "hours"
