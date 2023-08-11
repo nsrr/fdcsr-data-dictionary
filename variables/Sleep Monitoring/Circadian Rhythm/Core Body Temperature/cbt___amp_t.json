@@ -1,7 +1,7 @@
 {
   "id": "cbt___amp_t",
-  "display_name": "Calculated amplitude of forced component in circadian rhythm during forced desynchrony (FD) based on core body temperature (CBT) ",
-  "description": "Calculated amplitude of Forced component during forced desynchrony (FD) using CBT (Core Body Temperature) data.",
+  "display_name": "Calculated amplitude of forced component during forced desynchrony (FD) using core body temperature (CBT) data.",
+  "description": "",
   "type": "numeric",
-  "units": "celsius ©"
+  "units": "celsius"
 }

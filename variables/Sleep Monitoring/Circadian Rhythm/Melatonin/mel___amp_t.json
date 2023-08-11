@@ -1,6 +1,6 @@
 {
   "id": "mel___amp_t",
-  "display_name": "Amplitude of forced component in circadian rhythm during forced desynchrony (FD) based on melatonin data",
-  "description": "Calculated amplitude of Forced component during FD using melatonin data",
+  "display_name": "Calculated amplitude of forced component during forced desynchrony (FD) using melatonin data",
+  "description": "",
   "type": "numeric"
 }

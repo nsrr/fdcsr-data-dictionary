@@ -1,7 +1,7 @@
 {
   "id": "hab_wake",
   "display_name": "Habitual wake time",
-  "description": "",
+  "description": "Hours of the day",
   "type": "numeric",
   "units": "hours"
 }
