@@ -2,5 +2,6 @@
   "id": "melamp_circad",
   "display_name": "Calculated amplitude of circadian component during forced desynchrony (FD) using melatonin data",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
 }

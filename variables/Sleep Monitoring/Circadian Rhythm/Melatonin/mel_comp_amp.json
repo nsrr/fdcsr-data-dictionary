@@ -2,5 +2,6 @@
   "id": "mel_comp_amp",
   "display_name": "Calculated composite amplitude during forced desynchrony (FD) using melatonin data",
   "description": "",
-  "type": "numeric"
+  "type": "numeric",
+  "units": "picograms per milliliter (pg/mL)"
 }
