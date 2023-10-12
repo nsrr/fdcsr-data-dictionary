@@ -16,7 +16,7 @@
   run;
 
   *set data dictionary version;
-  %let version = 0.1.0.pre;
+  %let version = 0.1.0;
 
   *set nsrr csv release path;
   %let releasepath = \\rfawin.partners.org\bwh-sleepepi-nsrr-staging\20230418-klerman-fdcsr\nsrr-prep\_releases;
@@ -52,6 +52,9 @@
     *create placeholder visitnumber for Spout;
     visitnumber = 1;
 
+    *create nsrr id variable;
+	nsrrid=subject;
+
     *fix/clean variable names;
     rename 
       var7 = drug_placebo
@@ -72,6 +75,12 @@
 *******************************************************************************;
 data fdcsr_nsrr;
 set fdcsr_in;
+
+ if subject in ("24B7GXT3","25R8GXT2",
+      "26N2GXT2","26O2GXT2","27D9GX","27Q9GX","2760GXT2","2823GX","2844GX","3227GX","3228GX",
+      "3232GX","3233GX","3237GX","3241GX63","3315GX32","3319GX","3335GX",
+      "3339GX","3353GX","3411GX52","3433GX","3441GX","3450GX","3525GX",
+      "3531GX","3540GX","3562GX61");
 
 *demographics
 *age;

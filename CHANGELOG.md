@@ -1,4 +1,4 @@
-## 0.1.0
+## 0.1.0 (October 12, 2023)
 
 - Created the FD-CSR data dictionary repository using Spout v1.0.0
 - The CSV datasets generated from a SAS export are located here:
