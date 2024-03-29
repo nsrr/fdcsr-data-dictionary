@@ -3,5 +3,5 @@
   "display_name": "Habitual wake time",
   "description": "Decimal time",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours (hr)"
 }

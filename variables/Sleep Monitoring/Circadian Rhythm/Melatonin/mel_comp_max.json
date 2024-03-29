@@ -3,5 +3,5 @@
   "display_name": "Calculated time of circadian rhythm peak using all harmonics during forced desynchrony (FD) based on melatonin data",
   "description": "Calculated time of maximum of fit using all harmonics using melatonin data",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours (hr)"
 }

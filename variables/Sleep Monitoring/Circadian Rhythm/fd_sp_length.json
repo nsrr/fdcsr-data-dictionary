@@ -3,5 +3,5 @@
   "display_name": "Sleep period duration during forced desynchrony (FD)",
   "description": "FD sleep period (SP) length",
   "type": "numeric",
-  "units": "hours"
+  "units": "hours (hr)"
 }
