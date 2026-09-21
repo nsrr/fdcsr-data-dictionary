@@ -1,6 +1,6 @@
 {
-  "id": "visitnumber",
-  "display_name": "Visit number",
+  "id": "nsrr_visit",
+  "display_name": "Study visit number",
   "description": "",
   "type": "choices",
   "domain": "visitnumber"

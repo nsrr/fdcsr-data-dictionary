@@ -1,0 +1,7 @@
+{
+  "id": "hab_bed",
+  "display_name": "Habitual bed time",
+  "description": "Decimal time",
+  "type": "numeric",
+  "units": "hours (hr)"
+}

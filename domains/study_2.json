@@ -1,0 +1,62 @@
+[
+  {
+    "value": "NIAPPG",
+    "display_name": "Niappg",
+    "description": ""
+  },
+  {
+    "value": "MelPlac",
+    "display_name": "Melatonin Placebo",
+    "description": ""
+  },
+  {
+    "value": "Mel-H",
+    "display_name": "Melatonin_H",
+    "description": ""
+  },
+  {
+    "value": "CaffCaff",
+    "display_name": "Caffeine_Caffeine",
+    "description": ""
+  },
+  {
+    "value": "CaffPlac",
+    "display_name": "Caffine_Placebo",
+    "description": ""
+  },
+  {
+    "value": "Mel-L",
+    "display_name": "Melatonin_L",
+    "description": ""
+  },
+  {
+    "value": "ModafPlac",
+    "display_name": "Modafinil_Placebo",
+    "description": ""
+  },
+  {
+    "value": "Modafinil",
+    "display_name": "Modafinil_Modafinal",
+    "description": ""
+  },
+  {
+    "value": "NSBRI-65day",
+    "display_name": "NSBRI_65day",
+    "description": ""
+  },
+  {
+    "value": "AFOSR9",
+    "display_name": "Afosr9",
+    "description": ""
+  },
+  {
+    "value": "T20CSR",
+    "display_name": "T20csr",
+    "description": ""
+  },
+  {
+    "value": "T20Control",
+    "display_name": "T20_Control",
+    "description": ""
+  }
+]

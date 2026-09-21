@@ -76,8 +76,11 @@ df_clean <- df_combined |>
   mutate(across(any_of(numeric_vars), as.numeric)) |>
   relocate(c(study2, study_code), .after = study) |>
   relocate(c(drug_placebo_no_drug, drug_no_drug_or_placebo, first_bl_sp, last_bl_sp, hab_wake, hab_bed), .after = hab_csr) |>
-  select(-c(drug_no_drug_or_placebo)) |>
-  mutate(across(all_of(numeric_vars)))
+  select(-c(drug_no_drug_or_placebo, sleep_files_in_nsrr, edf_files_in_nsrr, edf_status)) |>
+  mutate(across(all_of(numeric_vars))) |>
+  rename("drug_placebo" = "drug_placebo_no_drug",
+         "start_analysis_spn" = "start_analysis_s_pn",
+         "end_analysis_spn" = "end_analysis_s_pn_included")
 
 
 write.csv(df_clean, file.path(releasepath, paste0(version, "/fdcsr-dataset-", version, ".csv")), na = "", row.names = F)
@@ -98,6 +101,9 @@ df_h <- df_clean |>
       is.na(gender) ~ "not reported",
       TRUE ~ NA_character_
     ),
-    nsrrid = subject) |>
-  select(nsrrid, nsrr_age, nsrr_sex)
+    nsrrid = subject,
+    nsrr_visit = "1") |>
+  select(nsrrid, nsrr_visit, nsrr_age, nsrr_sex)
+
+write.csv(df_h, file.path(releasepath, paste0(version, "/fdcsr-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
 

@@ -1,0 +1,7 @@
+{
+  "id": "actigraphy_files_in_nsrr",
+  "display_name": "if NSRR has merged actigraphy files",
+  "description": "",
+  "type": "choices",
+  "domain": "acti_files"
+}

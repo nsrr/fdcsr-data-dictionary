@@ -2,5 +2,6 @@
   "id": "study2",
   "display_name": "Study nickname",
   "description": "",
-  "type": "string"
+  "type": "choices",
+  "domain": "study_2"
 }

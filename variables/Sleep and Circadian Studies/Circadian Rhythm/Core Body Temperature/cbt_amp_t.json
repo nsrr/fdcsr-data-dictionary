@@ -1,5 +1,5 @@
 {
-  "id": "cbt___amp_t",
+  "id": "cbt_amp_t",
   "display_name": "Calculated amplitude of forced component during forced desynchrony (FD) using core body temperature (CBT) data.",
   "description": "",
   "type": "numeric",

@@ -1,0 +1,22 @@
+[
+  {
+    "value": "Y",
+    "display_name": "Yes",
+    "description": ""
+  },
+  {
+    "value": "N",
+    "display_name": "No",
+    "description": ""
+  },
+  {
+    "value": "Missing",
+    "display_name": "File missing",
+    "description": ""
+  },
+  {
+    "value": "Needs Merging",
+    "display_name": "Needs Merging",
+    "description": ""
+  }
+]

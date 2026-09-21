@@ -1,0 +1,6 @@
+{
+  "id": "first_bl_sp",
+  "display_name": "First baseline sleep period number",
+  "description": "",
+  "type": "integer"
+}
