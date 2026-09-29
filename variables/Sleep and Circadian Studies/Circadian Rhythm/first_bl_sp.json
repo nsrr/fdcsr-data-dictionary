@@ -1,6 +1,6 @@
 {
   "id": "first_bl_sp",
-  "display_name": "First baseline sleep period number",
+  "display_name": "Sleep Period number corresponding to the first sleep opportunity of the formal baseline phase preceding the forced-desynchrony protocol",
   "description": "",
   "type": "integer"
 }

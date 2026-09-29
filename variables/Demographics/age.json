@@ -1,0 +1,7 @@
+{
+  "id": "age",
+  "display_name": "Participant's age",
+  "description": "",
+  "type": "integer",
+  "commonly_used": true
+}

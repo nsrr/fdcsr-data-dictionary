@@ -1,0 +1,7 @@
+{
+  "id": "mel_tau",
+  "display_name": "Calculated cycle length of circadian rhythm during forced desynchrony (FD) based on melatonin data",
+  "description": "Calculated endogenous period length during FD using melatonin data",
+  "type": "numeric",
+  "units": "hours (hr)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "hab_csr",
+  "display_name": "Ratio of wake:sleep within the sleep+wake cycle ",
+  "description": "Habitual is 2:1 and Chronic Sleep Restriction (CSR) is 3.3:1",
+  "type": "choices",
+  "domain": "hab_csr"
+}

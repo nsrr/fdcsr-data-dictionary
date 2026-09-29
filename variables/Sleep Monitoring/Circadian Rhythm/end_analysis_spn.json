@@ -1,0 +1,6 @@
+{
+  "id": "end_analysis_spn",
+  "display_name": "End analysis sleep period number (SPn)",
+  "description": "",
+  "type": "integer"
+}
