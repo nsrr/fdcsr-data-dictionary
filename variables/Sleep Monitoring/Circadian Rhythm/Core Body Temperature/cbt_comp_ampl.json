@@ -1,6 +1,0 @@
-{
-  "id": "cbt_comp_ampl",
-  "display_name": "Calculated composite amplitude during forced desynchrony (FD) using core body temperature (CBT) data",
-  "description": "",
-  "type": "numeric"
-}

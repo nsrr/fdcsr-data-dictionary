@@ -1,7 +1,0 @@
-{
-  "id": "hab_wake",
-  "display_name": "Habitual wake time",
-  "description": "Decimal time",
-  "type": "numeric",
-  "units": "hours (hr)"
-}

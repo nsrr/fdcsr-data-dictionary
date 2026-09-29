@@ -1,6 +1,0 @@
-{
-  "id": "est_dst",
-  "display_name": "Study times in Eastern Standard Time (EST) or Daylight Saving Time (DST)",
-  "description": "whether DST or EST.<br>Time changes are all accounted for in the format of lab time.",
-  "type": "string"
-}

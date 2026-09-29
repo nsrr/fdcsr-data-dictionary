@@ -1,7 +1,0 @@
-{
-  "id": "end_analysis",
-  "display_name": "Forced desynchrony (FD) analysis end time represented as lab time",
-  "description": "",
-  "type": "numeric",
-  "units": "hours (hr)"
-}
