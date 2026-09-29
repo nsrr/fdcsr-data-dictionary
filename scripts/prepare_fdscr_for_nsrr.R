@@ -32,16 +32,18 @@ df_2 <- read_excel(file.path(sourcepath, "Study Info - 2026a to NSRR.xlsx")) |>
 # ##inspect the IDs available:
 # ids1 <- df_1$subject
 # ids2 <- df_2$subject
-# 
+
 # setdiff(ids1, ids2) #"1366HX" "2091W" (in first release but not in second)
 # setdiff(ids2, ids1) #"1366HX4T2" -> also 1366HX
-# 
-# common_vars <- intersect(
-#   setdiff(names(df_1), "subject"),
-#   setdiff(names(df_2), "subject")
-# )
 
-# Convert overlapping variables to character so joins/coalesce won't fail
+
+common_vars <- intersect(
+  setdiff(names(df_1), "subject"),
+  setdiff(names(df_2), "subject")
+)
+
+# Convert overlapping variables to character
+
 df_1 <- df_1 |>
   mutate(across(all_of(common_vars), as.character))
 
@@ -83,11 +85,15 @@ df_clean <- df_combined |>
          "end_analysis_spn" = "end_analysis_s_pn_included")
 
 
-write.csv(df_clean, file.path(releasepath, paste0(version, "/fdcsr-dataset-", version, ".csv")), na = "", row.names = F)
+##release only these studies for now: 
+df_clean_release <- df_clean |>
+  filter(study_code %in% c("DX", "GX", "MX", "XX"))
+
+write.csv(df_clean_release, file.path(releasepath, paste0(version, "/fdcsr-dataset-", version, ".csv")), na = "", row.names = F)
 
 ##prepare harmonized dataset
 
-df_h <- df_clean |>
+df_h <- df_clean_release |>
   mutate(
     nsrr_age = case_when(
       age > 89 ~ 90,
