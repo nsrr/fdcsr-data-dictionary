@@ -1,6 +1,6 @@
 {
   "id": "last_bl_sp",
-  "display_name": "Sleep Period number corresponding to the last sleep opportunity of the formal baseline phase preceding the forced-desynchrony protocol",
+  "display_name": "Sleep Period number corresponding to the last sleep opportunity of the formal baseline phase preceding the forced-desynchrony segment of the protocol",
   "description": "",
   "type": "integer"
 }
