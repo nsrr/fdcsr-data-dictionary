@@ -1,4 +1,4 @@
-## 0.2.0 
+## 0.2.0 (October 2, 2026)
 
 - Add more subjects and variables to dataset
 
