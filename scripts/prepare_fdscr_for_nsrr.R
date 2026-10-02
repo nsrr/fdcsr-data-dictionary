@@ -1,5 +1,5 @@
 
-version <- "0.2.0.pre"
+version <- "0.2.0"
 releasepath <- "/Volumes/bwh-sleepepi-nsrr-staging/20230418-klerman-fdcsr/nsrr-prep/_releases"
 
 library(readxl)
@@ -113,4 +113,3 @@ df_h <- df_clean_release |>
   select(nsrrid, nsrr_visit, nsrr_age, nsrr_sex)
 
 write.csv(df_h, file.path(releasepath, paste0(version, "/fdcsr-harmonized-dataset-", version, ".csv")), na = "", row.names = F)
-
