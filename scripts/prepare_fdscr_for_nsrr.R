@@ -82,7 +82,9 @@ df_clean <- df_combined |>
   mutate(across(all_of(numeric_vars))) |>
   rename("drug_placebo" = "drug_placebo_no_drug",
          "start_analysis_spn" = "start_analysis_s_pn",
-         "end_analysis_spn" = "end_analysis_s_pn_included")
+         "end_analysis_spn" = "end_analysis_s_pn_included") |>
+  mutate(nsrr_visit = "1") |>
+  relocate(nsrr_visit, .after = subject)
 
 
 ##release only these studies for now: 
@@ -107,8 +109,7 @@ df_h <- df_clean_release |>
       is.na(gender) ~ "not reported",
       TRUE ~ NA_character_
     ),
-    nsrrid = subject,
-    nsrr_visit = "1") |>
+    nsrrid = subject) |>
   select(nsrrid, nsrr_visit, nsrr_age, nsrr_sex)
 
 write.csv(df_h, file.path(releasepath, paste0(version, "/fdcsr-harmonized-dataset-", version, ".csv")), na = "", row.names = F)

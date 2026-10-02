@@ -1,11 +1,12 @@
 slug: fdcsr
-visit: visitnumber
-charts: []
+visit: nsrr_visit
 charts:
+- chart: study2
+  title: Study Type
 - chart: gender
   title: Gender
 webservers:
   - name: production
     url: https://sleepdata.org
   - name: staging
-    url: https://staging.partners.org/sleepdata.org
+    url: https://preview.sleepdata.org
